@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{% if konten_liste_aktiv %}
+
+    <table>
+        <tr>
+            <td>Aktiven</td>
+            <td>Passiven</td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <table>
+                    {% for konto in konten_liste_aktiv %}
+                        <tr>
+                            <td>
+                                {{ konto.konto_title }}
+                            </td>
+                            <td>
+                                {{ konto.konto_sum }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+
+            </td>
+            <td valign="top">
+                <table>
+                    {% for konto in konten_liste_passiv %}
+                        <tr>
+                            <td>
+                                {{ konto.konto_title }}
+                            </td>
+                            <td>
+                                {{ konto.konto_sum }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+
+{% endif %}
+
+<br /><br />
+
+{% if buchungen %}
+    <table>
+        {% for buchung in buchungen %}
+            <tr>
+                <td>{{ buchung.buchung_descr }}</td>
+                <td>{{ buchung.buchung_sollKonto }}</td>
+                <td>/ {{ buchung.buchung_habenKonto }}</td>
+                <td>{{ buchung.buchung_amount }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endif %}
+
+</body>
+</html>
