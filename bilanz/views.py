@@ -5,13 +5,17 @@ from bilanz.models import Konto
 from bilanz.models import Buchung
 
 def index(request):
-    konten_liste_aktiv = Konto.objects.filter(konto_type="A")
-    konten_liste_passiv = Konto.objects.filter(konto_type="P")
+    bilanz_liste_aktiv = Konto.objects.filter(konto_type="A", konto_erfolgswirksam=False)
+    bilanz_liste_passiv = Konto.objects.filter(konto_type="P", konto_erfolgswirksam=False)
+    erfolg_liste_aufwand = Konto.objects.filter(konto_type="A", konto_erfolgswirksam=True)
+    erfolg_liste_ertrag = Konto.objects.filter(konto_type="P", konto_erfolgswirksam=True)
     buchungen = Buchung.objects.all()
     template = loader.get_template('bilanz/index.html')
     context = RequestContext(request, {
-        'konten_liste_aktiv': konten_liste_aktiv,
-        'konten_liste_passiv': konten_liste_passiv,
+        'bilanz_liste_aktiv': bilanz_liste_aktiv,
+        'bilanz_liste_passiv': bilanz_liste_passiv,
+        'erfolg_liste_aufwand': erfolg_liste_aufwand,
+        'erfolg_liste_ertrag': erfolg_liste_ertrag,
         'buchungen' : buchungen,
     })
     return HttpResponse(template.render(context))
