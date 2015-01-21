@@ -1,4 +1,5 @@
 from django.db import models
+from taggit.managers import TaggableManager
 
 # class Tag(models.Model):
 #    tag_tag = models.CharField('Tag', max_length=80)
@@ -22,10 +23,8 @@ class Konto(models.Model):
         ('N', 'Neutral'),
         ('S', 'Steuer'),
     )
-    # foreign field: tags
     konto_type = models.CharField(max_length=1, choices=konto_types)
     konto_type2 = models.CharField(max_length=1, choices=konto_types2, default='-')
-    # konto_tag = models.ForeignKey(Tag, related_name='tag')
     def __str__(self):
         return self.konto_title
 
@@ -37,5 +36,6 @@ class Buchung(models.Model):
     buchung_sollKonto = models.ForeignKey(Konto, related_name='sollKonto')
     buchung_habenKonto = models.ForeignKey(Konto, related_name='habenKonto')
     buchung_date = models.DateTimeField('Buchungsdatum')
+    buchung_tags = TaggableManager(blank=True)
     def __str__(self):
         return self.buchung_descr

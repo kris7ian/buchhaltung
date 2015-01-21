@@ -2,6 +2,8 @@
 
 settings.py
 
+db.sqlite3
+
 .DS_Store
 
 **/.idea/workspace.xml

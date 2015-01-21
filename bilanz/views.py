@@ -9,7 +9,8 @@ def index(request):
     bilanz_liste_passiv = Konto.objects.filter(konto_type="P", konto_erfolgswirksam=False)
     erfolg_liste_aufwand = Konto.objects.filter(konto_type="A", konto_erfolgswirksam=True)
     erfolg_liste_ertrag = Konto.objects.filter(konto_type="P", konto_erfolgswirksam=True)
-    buchungen = Buchung.objects.all()
+    buchungen = Buchung.objects.all().order_by('-buchung_date')
+    
     template = loader.get_template('bilanz/index.html')
     context = RequestContext(request, {
         'bilanz_liste_aktiv': bilanz_liste_aktiv,

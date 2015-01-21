@@ -352,3 +352,22 @@ table.dataTable thead .sorting:after {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+/* CUSTOM */
+
+#page-wrapper {
+    margin:0;
+}
+
+table#bilanz {
+    margin:0;
+    padding:0;
+}
+
+table#bilanz tr:first-child {
+    border-top:0px !important;
+}
+
+table td table.table-hover tr:first-child {
+    border-top:0;
+}
