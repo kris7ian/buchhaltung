@@ -5,7 +5,8 @@ Buchaltung
 ###
 DEPENDENCIES
 
-- django-user-accounts
+- django-taggit
+- django-crispy-forms
 
 
 ###
@@ -21,6 +22,21 @@ TO DO:
 - Use js framework? Backbone? Angular?
 
 - django-user-accounts: https://github.com/pinax/django-user-accounts
+
+- django related_name in models
+
+- Probably 1 query could be enough for the konto view with template tag regroup: https://docs.djangoproject.com/en/1.7/ref/templates/builtins/#regroup
+
+
+
+- VIEWSS:
+-- add-konto
+-- add-buchung
+-- edit konto
+-- edit buchung
+-- remove buchung
+-- remove konto
+-- dashboard
 
 
 

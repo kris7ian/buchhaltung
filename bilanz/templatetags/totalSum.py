@@ -9,7 +9,7 @@ def totalSum(kontotype):
     sum = 0
 
     for konto in konten:
-        sum += kontoSum(konto.konto_id, konto.konto_type)
+        sum += kontoSum(konto.id, konto.konto_type)
 
     return sum
 
