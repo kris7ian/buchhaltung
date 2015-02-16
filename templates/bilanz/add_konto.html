@@ -1,0 +1,114 @@
+{% extends '_layouts/base.html' %}
+
+
+{% block content %}
+
+
+
+<h1 class="page-header">Neues Konto</h1>
+<br />
+
+<form role="form" method="post" action="" class="form-horizontal form-groups-bordered">
+
+    {% csrf_token %}
+
+    <div class="form-group">
+        <label for="field-1" class="col-sm-3 control-label">Konto Titel</label>
+
+        <div class="col-sm-5">
+            <input type="text" class="form-control" id="field-1" placeholder="Name" name="konto_title">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Erfolgswirksam?</label>
+
+        <div class="col-sm-5">
+              <input id="switch-state" type="checkbox" name="konto_erfolgswirksam">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="aktiv-passiv">
+            <label class="col-sm-3 control-label">Aktiv oder Passiv?</label>
+
+            <div class="col-sm-5">
+                <select class="form-control" name="konto_type">
+                    <option value="A">Aktiv</option>
+                    <option value="P">Passiv</option>
+                </select>
+            </div>
+        </div>
+        <div class="aufwand-ertrag" style="display:none;">
+            <label class="col-sm-3 control-label">Aufwand oder Ertrag?</label>
+
+            <div class="col-sm-5">
+                <select class="form-control" name="konto_type" disabled>
+                    <option value="A">Aufwand</option>
+                    <option value="P">Ertrag</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Konto Kategorie</label>
+
+        <div class="col-sm-5 kategorie-erfolgswirksam" style="display:none;">
+            <select class="form-control" name="konto_type2">
+                <option value="-" selected>-----</option>
+                <option value="B">Betriebsaufwand/-ertrag</option>
+                <option value="F">Finanzaufwand/-ertrag</option>
+                <option value="S">Steueraufwand/-ertrag</option>
+                <option value="N">neutraler Aufwand/Ertrag</option>
+            </select>
+        </div>
+        <div class="col-sm-5 kategorie-nichterfolgswirksam">
+            <select class="form-control" name="konto_type3">
+                <option value="-" selected>-----</option>
+                <option value="UV">Umlaufverm&ouml;gen</option>
+                <option value="AV">Anlageverm&ouml;gen</option>
+                <option value="kFK">kurzfristiges Fremdkapital</option>
+                <option value="lFK">langfristiges Fremdkapital</option>
+                <option value="EK">Eigenkapital</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group" style="border-bottom:0;">
+        <div class="col-sm-5 col-sm-offset-3">
+            <input type="submit" name="neues-konto" value="Hinzuf&uuml;gen" class="btn btn-primary btn-primary" id="submit-id-neues-konto">
+        </div>
+    </div>
+
+    <script>
+    $(document).ready(function(){
+        $("[name='konto_erfolgswirksam']").bootstrapSwitch();
+
+        $('input[name="konto_erfolgswirksam"]').on('switchChange.bootstrapSwitch', function(event, state) {
+
+          if (state == true) {
+            $(".aktiv-passiv").hide("slow");
+            $(".aufwand-ertrag").show("slow");
+            $(".kategorie-nichterfolgswirksam").hide("slow");
+            $(".kategorie-erfolgswirksam").show("slow");
+            $(".aktiv-passiv select").prop('disabled', true);
+            $(".aufwand-ertrag select").prop('disabled', false);
+          } else {
+            $(".aufwand-ertrag").hide("slow");
+            $(".aktiv-passiv").show("slow");
+            $(".kategorie-nichterfolgswirksam").show("slow");
+            $(".kategorie-erfolgswirksam").hide("slow");
+            $(".aktiv-passiv select").prop('disabled', false);
+            $(".aufwand-ertrag select").prop('disabled', true);
+          }
+        });
+
+
+
+    });
+    </script>
+
+{% endblock %}

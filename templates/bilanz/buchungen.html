@@ -1,0 +1,48 @@
+{% extends '_layouts/base.html' %}
+
+    {% block content %}
+
+        <h1 class="page-header">Buchungen</h1>
+
+
+                {% if buchung_list %}
+                <div class="col-md-12">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Datum</th>
+                                            <th>Beschreibung</th>
+                                            <th>Buchungssatz</th>
+                                            <th>Betrag</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for buchung in buchung_list %}
+                                            <tr>
+                                                <td>
+                                                    {{ buchung.buchung_date|date:"j.m.o" }}
+                                                </td>
+                                                <td>
+                                                    {{ buchung.buchung_descr }}
+                                                </td>
+                                                <td>
+                                                    {{ buchung.buchung_sollKonto }} / {{ buchung.buchung_habenKonto }}
+                                                </td>
+                                                <td>
+                                                    {{ buchung.buchung_amount }}
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+
+                </div>
+                <!-- /.col-lg-6 -->
+                {% else %}
+
+                    <h3>Keine Buchungen verfügbar.</h3>
+
+                {% endif %}
+
+    {% endblock content %}

@@ -7,7 +7,7 @@ from bilanz.models import Buchung
 class KontoAdmin(admin.ModelAdmin):
 
     # define which Konto columns to show in the admin
-    list_display = ('konto_title', 'konto_type', 'konto_anfangsBestand', 'konto_sum', 'id', 'konto_erfolgswirksam')
+    list_display = ('konto_title', 'konto_type', 'id', 'konto_erfolgswirksam')
 
 
 

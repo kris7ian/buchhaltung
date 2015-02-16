@@ -85,6 +85,26 @@ class AddBuchungView(LoginRequiredMixin, generic.CreateView):
         return reverse('bilanz')
 
 
+class AddBuchungView2(LoginRequiredMixin, generic.FormView):
+    template_name = 'bilanz/add_buchung2.html'
+
+    form_class = forms.AddBuchungForm
+    model = Buchung
+
+    def form_valid(self, form):
+        self.object = form.save(commit=False)
+        self.object.buchung_user = self.request.user
+        self.object.save()
+        #self.object.buchung_tags.add("red", "green", "fruit")
+        form.save_m2m()
+
+
+        return super(AddBuchungView2, self).form_valid(form)
+
+    def get_success_url(self):
+        return reverse('buchungen')
+
+
 class AddKontoView(LoginRequiredMixin, generic.CreateView):
     template_name = 'bilanz/add_buchung.html'
 
@@ -96,6 +116,22 @@ class AddKontoView(LoginRequiredMixin, generic.CreateView):
         # self.object.user = self.request.user
         self.object.save()
         return super(AddKontoView, self).form_valid(form)
+
+    def get_success_url(self):
+        return reverse('bilanz')
+
+
+class AddKontoView2(LoginRequiredMixin, generic.CreateView):
+    template_name = 'bilanz/add_konto.html'
+
+    form_class = forms.AddKontoForm
+    model = Konto
+
+    def form_valid(self, form):
+        self.object = form.save(commit=False)
+        # self.object.user = self.request.user
+        self.object.save()
+        return super(AddKontoView2, self).form_valid(form)
 
     def get_success_url(self):
         return reverse('bilanz')

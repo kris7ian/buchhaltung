@@ -1,0 +1,248 @@
+{% load staticfiles %}
+{% load active %}
+
+{% url 'dashboard' as dashboard_url %}
+{% url 'bilanz' as bilanz_url %}
+{% url 'buchungen' as buchungen_url %}
+{% url 'erfolgsrechnung' as erfolgsrechnung_url %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Neon Admin Panel" />
+	<meta name="author" content="" />
+
+	<title>Neon | Horizontal Menu Boxed</title>
+
+	<!-- <link rel="stylesheet" href="{% static "js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css" %}"> -->
+	<!-- <link rel="stylesheet" href="{% static "js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css" %}"> -->
+	<link rel="stylesheet" href="{% static "js/jquery-ui/css/custom-theme/jquery-ui-1.10.4.custom.min.css" %}">
+	<link rel="stylesheet" href="{% static "css/font-icons/entypo/css/entypo.css" %}">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic">
+	<link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
+	<link rel="stylesheet" href="{% static "css/bootstrap-switch.css" %}">
+	<link rel="stylesheet" href="{% static "css/neon-core.css" %}">
+	<link rel="stylesheet" href="{% static "css/neon-theme.css" %}">
+	<link rel="stylesheet" href="{% static "css/neon-forms.css" %}">
+	<link rel="stylesheet" href="{% static "css/custom.css" %}">
+
+    {% block css %}{% endblock css %}
+
+	<script src="{% static "js/jquery-1.11.0.min.js" %}"></script>
+	<!-- <script src="{% static "js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js" %}"></script> -->
+
+
+
+
+	<!-- <script>$.noConflict();</script> -->
+
+	<!--[if lt IE 9]><script src="{% static "js/ie8-responsive-file-warning.js" %}"></script><![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+
+</head>
+<body class="page-body" data-url="http://neon.dev">
+
+<div class="page-container horizontal-menu">
+
+	
+	<header class="navbar navbar-fixed-top"><!-- set fixed position by adding class "navbar-fixed-top" -->
+		
+		<div class="navbar-inner">
+		
+			<!-- logo -->
+			<div class="navbar-brand">
+				<a href="{% url 'dashboard' %}">
+					<img src="{% static "images/buchhaltung-logo@2x.png" %}" width="200" alt="Buchhaltung" />
+				</a>
+			</div>
+			
+			
+			<!-- main menu -->
+						
+			<ul class="navbar-nav">
+				<li class="{% active request dashboard_url %}">
+					<a href="{% url 'dashboard' %}">
+						<i class="entypo-gauge"></i>
+						<span class="title">Dashboard</span>
+					</a>
+				</li>
+				<li class="opened {% active request bilanz_url %}">
+					<a href="{% url 'bilanz' %}">
+						<i class="entypo-book"></i>
+						<span class="title">Bilanz</span>
+					</a>
+				</li>
+                <li class="opened {% active request erfolgsrechnung_url %}">
+					<a href="{% url 'erfolgsrechnung' %}">
+						<i class="entypo-chart-line"></i>
+						<span class="title">Erfolgsrechnung</span>
+					</a>
+				</li>
+				<li class="opened {% active request buchungen_url %}">
+					<a href="{% url 'buchungen' %}">
+						<i class="entypo-list"></i>
+						<span class="title">Buchungen</span>
+					</a>
+				</li>
+				<li>
+					<a>
+						<i class="entypo-list-add"></i>
+						<span class="title">Hinzufügen...</span>
+					</a>
+					<ul>
+						<li>
+							<a href="{% url 'add-buchung2' %}">
+								<span class="title">Buchung</span>
+							</a>
+						</li>
+						<li>
+							<a href="{% url 'add-konto2' %}">
+								<span class="title">Konto</span>
+							</a>
+						</li>
+						<!--
+						<li>
+							<a href="ui-tabs-accordions.html">
+								<span class="title">Abschreibung</span>
+							</a>
+						</li>
+						-->
+					</ul>
+				</li>
+			</ul>
+						
+			
+			<!-- notifications and other links -->
+			<ul class="nav navbar-right pull-right">
+
+
+
+
+
+
+                {% if user.is_anonymous %}
+				<!-- raw links -->
+				<li class="dropdown">
+					<li>
+						<a href="{% url 'login' %}">Login</a>
+					</li>
+				</li>
+                {% endif %}
+
+				{% if user.is_authenticated %}
+
+                <li class="sep"></li>
+
+				<li>
+					<a href="{% url 'logout' %}">
+						Log Out <i class="entypo-logout right"></i>
+					</a>
+				</li>
+
+                {% endif %}
+
+
+				<!-- mobile only -->
+				<li class="visible-xs">
+
+					<!-- open/close menu icon (do not remove if you want to enable menu on mobile devices) -->
+					<div class="horizontal-mobile-menu visible-xs">
+						<a href="#" class="with-animation"><!-- add class "with-animation" to support animation -->
+							<i class="entypo-menu"></i>
+						</a>
+					</div>
+
+				</li>
+
+			</ul>
+	
+		</div>
+		
+	</header>
+	<div class="main-content">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+
+                    <div class="row">
+	
+	                    {% block content %}{% endblock content %}
+	
+                    </div>
+
+                <!-- Footer -->
+                <footer class="main">
+
+                    &copy; 2015 <strong>Buchhaltung alpha</strong> by <a href="http://arveinternational.ch" target="_blank">Arve International</a>
+
+                </footer>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+
+
+
+
+
+	<!-- Imported styles on this page -->
+	<link rel="stylesheet" href="{% static "js/jvectormap/jquery-jvectormap-1.2.2.css" %}">
+	<link rel="stylesheet" href="{% static "js/rickshaw/rickshaw.min.css" %}">
+
+	<!-- Bottom scripts (common) -->
+	<script src="{% static "js/gsap/main-gsap.js" %}"></script>
+	<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+	<script src="{% static "js/bootstrap.js" %}"></script>
+	<script src="{% static "js/joinable.js" %}"></script>
+	<script src="{% static "js/resizeable.js" %}"></script>
+	<script src="{% static "js/neon-api.js" %}"></script>
+	<script src="{% static "js/jvectormap/jquery-jvectormap-1.2.2.min.js" %}"></script>
+
+
+	<!-- Imported scripts on this page
+	<script src="{% static "js/jvectormap/jquery-jvectormap-europe-merc-en.js" %}"></script>
+	<script src="{% static "js/jquery.sparkline.min.js" %}"></script>
+	<script src="{% static "js/rickshaw/vendor/d3.v3.js" %}"></script>
+	<script src="{% static "js/rickshaw/rickshaw.min.js" %}"></script>
+	<script src="{% static "js/raphael-min.js" %}"></script>
+	<script src="{% static "js/morris.min.js" %}"></script>
+	<script src="{% static "js/toastr.js" %}"></script>
+	<script src="{% static "js/neon-chat.js" %}"></script>
+    -->
+	<script src="{% static "js/bootstrap-switch.min.js" %}"></script>
+	<script src="{% static "js/bootstrap-tagsinput.min.js" %}"></script>
+
+
+
+	<!-- JavaScripts initializations and stuff -->
+	<script src="{% static "js/neon-custom.js" %}"></script>
+
+
+	<!-- Demo Settings
+	<script src="{% static "js/neon-demo.js" %}"></script>
+	-->
+
+    <script>
+        $(function() {
+            $( ".datepicker" ).datepicker();
+        });
+    </script>
+
+
+</body>
+</html>

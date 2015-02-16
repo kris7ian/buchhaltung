@@ -1,0 +1,75 @@
+{% extends '_layouts/base.html' %}
+
+
+    {% load kontoSum %}
+    {% load totalSum %}
+
+    {% block content %}
+
+        <h1 class="page-header">Bilanz</h1>
+
+        {% if bilanzkonto_list %}
+        <div class="col-md-12">
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Aktiven</th>
+                                    <th style="text-align:right;">Passiven</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td width="50%" style="padding:0;border-right:1px solid;">
+                                        <table class="table table-hover" id="bilanz" style="margin:0;">
+                                            {% for konto in bilanzkonto_list %}
+                                            {% if konto.konto_type = 'A' %}
+                                                <tr>
+                                                    <td>
+                                                        {{ konto.konto_title }}
+                                                    </td>
+                                                    <td style="text-align:right;">
+                                                        {% kontoSum konto.id konto.konto_type %}
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </table>
+                                    </td>
+                                    <td width="50%" style="padding:0">
+
+                                        <table class="table table-hover" style="margin:0;">
+                                            {% for konto in bilanzkonto_list %}
+                                            {% if konto.konto_type = 'P' %}
+                                                <tr>
+                                                    <td>
+                                                        {{ konto.konto_title }}
+                                                    </td>
+                                                    <td style="text-align:right;">
+                                                        {% kontoSum konto.id konto.konto_type %}
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
+                                            {% endfor %}
+                                        </table>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Summe: <span style="float:right;">{% totalSum 'A' %}</span></td>
+                                    <td>Summe: <span style="float:right;">{% totalSum 'P' %}</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+        </div>
+        <!-- /.col-lg-6 -->
+
+        {% else %}
+
+            <h3>Keine Konten verf&uuml;gbar.</h3>
+
+        {% endif %}
+
+
+    {% endblock content %}

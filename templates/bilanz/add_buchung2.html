@@ -1,0 +1,90 @@
+{% extends '_layouts/base.html' %}
+
+{% load getKonten %}
+
+
+{% block content %}
+
+{% getKonten as konten %}
+
+<h1 class="page-header">Neue Buchung</h1>
+<br />
+
+<form method="post" action="" role="form" class="form-horizontal form-groups-bordered">
+
+    {% csrf_token %}
+
+
+    <div class="col-md-8">
+        <div class="form-group">
+            <label for="field-1" class="col-sm-3 control-label">Beschreibung</label>
+
+            <div class="col-sm-5">
+                <input type="text" autocomplete="off" class="form-control" id="field-1" placeholder="Beschreibung" name="buchung_descr">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Soll Konto</label>
+
+            <div class="col-sm-5">
+                <select class="form-control" name="buchung_sollKonto">
+                    {% for konto in konten %}
+                    <option value="{{ konto.id }}">{{ konto.konto_title }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Haben Konto</label>
+
+            <div class="col-sm-5">
+                <select class="form-control" name="buchung_habenKonto">
+                    {% for konto in konten %}
+                    <option value="{{ konto.id }}">{{ konto.konto_title }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Betrag</label>
+
+            <div class="col-sm-2">
+                <div class="input-group">
+                    <input type="text" autocomplete="off" class="form-control" name="buchung_amount">
+                    <span class="input-group-addon">CHF</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Buchungsdatum</label>
+
+            <div class="col-sm-5">
+
+                <input class="datepicker dateinput form-control" autocomplete="off" id="id_buchung_date" name="buchung_date" type="text">
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Tags</label>
+
+            <div class="col-sm-5">
+
+                <input type="text" value="" class="form-control tagsinput" name="buchung_tags" />
+
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-5">
+
+<input type="submit" name="neue-buchung" value="Hinzuf&uuml;gen" class="btn btn-primary btn-primary" id="submit-id-neue-buchung">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

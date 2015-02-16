@@ -1,0 +1,156 @@
+{% extends '_layouts/base.html' %}
+
+
+    {% load kontoSum %}
+    {% load totalSum %}
+
+    {% block content %}
+
+        <h1 class="page-header">Buchhaltung</h1>
+
+                {% if bilanz_liste_aktiv %}
+                <div class="col-md-6">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Aktiven</th>
+                                            <th style="text-align:right;">Passiven</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%" style="padding:0;border-right:1px solid;">
+                                                <table class="table table-hover" id="bilanz">
+                                                    {% for konto in bilanz_liste_aktiv %}
+                                                        <tr>
+                                                            <td>
+                                                                {{ konto.konto_title }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {% kontoSum konto.id konto.konto_type %}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+                                            </td>
+                                            <td width="50%" style="padding:0">
+
+                                                <table class="table table-hover">
+                                                    {% for konto in bilanz_liste_passiv %}
+                                                        <tr>
+                                                            <td>
+                                                                {{ konto.konto_title }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {% kontoSum konto.id konto.konto_type %}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Summe: <span style="float:right;">{% totalSum 'A' %}</span></td>
+                                            <td>Summe: <span style="float:right;">{% totalSum 'P' %}</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                </div>
+                <!-- /.col-lg-6 -->
+                {% endif %}
+
+                {% if erfolg_liste_aufwand %}
+                <div class="col-md-6">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Aufwand</th>
+                                            <th>Ertrag</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%" style="padding:0;border-right:1px solid;">
+                                                <table class="table table-hover" id="bilanz">
+                                                    {% for konto in erfolg_liste_aufwand %}
+                                                        <tr>
+                                                            <td>
+                                                                {{ konto.konto_title }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {% kontoSum konto.id konto.konto_type %}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+                                            </td>
+                                            <td width="50%" style="padding:0">
+
+                                                <table class="table table-hover">
+                                                    {% for konto in erfolg_liste_ertrag %}
+                                                        <tr>
+                                                            <td>
+                                                                {{ konto.konto_title }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {% kontoSum konto.id konto.konto_type %}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Summe: <span style="float:right;">{% totalSum 'A' %}</span></td>
+                                            <td>Summe: <span style="float:right;">{% totalSum 'P' %}</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                </div>
+                <!-- /.col-lg-6 -->
+                {% endif %}
+
+
+                {% if buchungen %}
+                <div class="col-md-12">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Datum</th>
+                                            <th>Beschreibung</th>
+                                            <th>Buchungssatz</th>
+                                            <th>Betrag</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for buchung in buchungen %}
+                                            <tr>
+                                                <td>
+                                                    {{ buchung.buchung_date|date:"j.m.o" }}
+                                                </td>
+                                                <td>
+                                                    {{ buchung.buchung_descr }}
+                                                </td>
+                                                <td>
+                                                    {{ buchung.buchung_sollKonto }} / {{ buchung.buchung_habenKonto }}
+                                                </td>
+                                                <td>
+                                                    {{ buchung.buchung_amount }}
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+
+                </div>
+                <!-- /.col-lg-6 -->
+                {% endif %}
+
+    {% endblock content %}

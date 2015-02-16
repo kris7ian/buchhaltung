@@ -2,753 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8194fe8-5579-45a8-88bd-cd0bcfa0d916" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/migrations/0002_auto_20141226_0232.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/migrations/0003_auto_20141226_0233.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/migrations/0004_konto_konto_erfolgswirksam.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/migrations/0005_auto_20150114_1441.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/migrations/0006_auto_20150114_1441.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/migrations/0007_auto_20150114_1443.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/migrations/0008_auto_20150115_2239.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bilanz/templates/bilanz/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/bootstrap-social.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/bootstrap-social.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/bootstrap-social.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-social/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/grunt/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/grunt/configBridge.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/grunt/sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/js/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/.csscomb.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/.csslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/background-variant.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/border-radius.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/center-block.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/clearfix.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/gradients.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/grid-framework.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/hide-text.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/image.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/nav-divider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/opacity.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/progress-bar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/reset-filter.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/resize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/size.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/tab-focus.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/table-row.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/text-emphasis.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/text-overflow.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/responsive-embed.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/average().js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/column().title().js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/columns().order().js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnAddDataAndDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnAddTr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnColumnIndexToVisible.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnDataUpdate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnDisplayRow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnDisplayStart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnFakeRowspan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnFilterAll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnFilterClear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnFilterOnReturn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnFindCellRowIndexes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnFindCellRowNodes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnGetAdjacentTr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnGetColumnData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnGetColumnIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnGetHiddenNodes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnGetTd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnGetTds.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnLengthChange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnMultiFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnPagingInfo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnProcessingIndicator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnReloadAjax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnSetFilteringDelay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnSortNeutral.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnStandingRedraw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/fnVisibleToColumnIndex.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/page.jumpToData().js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/api/sum().js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/filtering/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/filtering/row-based/TableTools.ShowSelectedOnly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/filtering/row-based/range_dates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/filtering/row-based/range_numbers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/filtering/type-based/accent-neutralise.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/filtering/type-based/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/filtering/type-based/phoneNumber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Afrikaans.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Albanian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Arabic.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Azerbaijan.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Bangla.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Belarusian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Bulgarian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Catalan.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Chinese-traditional.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Chinese.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Croatian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Czech.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Danish.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Dutch.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/English.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Estonian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Filipino.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Finnish.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/French.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Galician.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Georgian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/German.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Greek.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Gujarati.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Hebrew.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Hindi.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Hungarian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Icelandic.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Indonesian-Alternative.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Indonesian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Irish.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Italian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Japanese.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Korean.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Latvian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Lithuanian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Macedonian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Malay.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Norwegian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Persian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Polish.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Portuguese-Brasil.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Portuguese.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Romanian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Russian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Serbian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Slovak.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Slovenian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Spanish.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Swahili.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Swedish.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Tamil.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Thai.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Turkish.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Ukranian.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Urdu.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Uzbek.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/Vietnamese.lang" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/i18n/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/font-awesome/bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/font-awesome/dataTables.fontAwesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/font-awesome/datatables.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/font-awesome/foundation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/foundation/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/integration/jqueryui/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/make.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/ellipses.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/extjs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/four_button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/input.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/jPaginator/dataTables.jPaginator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/scrolling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/pagination/select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/alt-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/anti-the.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/chinese-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/currency.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/custom-data-source/dom-checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/custom-data-source/dom-select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/custom-data-source/dom-text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/date-dd-MMM-yyyy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/date-de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/date-eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/date-euro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/date-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/datetime-moment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/datetime-us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/enum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/file-size.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/formatted-numbers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/ip-address.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/monthYear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/natural.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/num-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/numeric-comma.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/percent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/persian.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/scientific.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/signed-num.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/stringMonthYear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/title-numeric.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/title-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/sorting/turkish-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/currency.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/date-uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/file-size.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/formatted-num.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/ip-address.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/num-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-plugins/type-detection/numeric-comma.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/css/dataTables.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/css/dataTables.responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/api/responsive.index().xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/api/responsive.recalc().xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/option/responsive.breakpoints.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/option/responsive.details.renderer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/option/responsive.details.target.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/option/responsive.details.type.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/option/responsive.details.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/docs/option/responsive.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/child-rows/column-control.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/child-rows/custom-renderer.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/child-rows/disable-child-rows.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/child-rows/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/child-rows/right-column.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/child-rows/whole-row-control.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/display-control/auto.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/display-control/classes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/display-control/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/display-control/init-classes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/initialisation/ajax.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/initialisation/className.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/initialisation/default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/initialisation/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/initialisation/new.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/initialisation/option.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/styling/bootstrap.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/styling/foundation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/examples/styling/index.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/js/dataTables.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables-responsive/make.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/Contributing.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/css/jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/css/jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/css/jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/Sorting icons.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/back_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/back_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/back_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/forward_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/forward_enabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/forward_enabled_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/js/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/datatables/media/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot.tooltip/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot.tooltip/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot.tooltip/js/excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot.tooltip/js/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot.tooltip/js/jquery.flot.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot.tooltip/js/jquery.flot.tooltip.source.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/API.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/FAQ.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/NEWS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/PLUGINS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-eu-gdp-growth-1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-eu-gdp-growth-2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-eu-gdp-growth-3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-eu-gdp-growth-4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-eu-gdp-growth-5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-eu-gdp-growth.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-japan-gdp-growth.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/data-usa-gdp-growth.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/ajax/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/annotating/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-interacting/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-multiple/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/africa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/antarctica" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/asia" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/australasia" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/backward" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/etcetera" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/europe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/factory" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/iso3166.tab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/leapseconds" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/northamerica" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/pacificnew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/solar87" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/solar88" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/solar89" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/southamerica" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/systemv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/yearistype.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time-zones/tz/zone.tab" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/axes-time/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/basic-options/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/basic-usage/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/canvas/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/categories/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/examples.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/image/hs-2004-27-a-large-web.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/image/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/interacting/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/navigate/arrow-down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/navigate/arrow-left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/navigate/arrow-right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/navigate/arrow-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/navigate/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/percentiles/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/realtime/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/resize/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/selection/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/series-errorbars/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/series-pie/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/series-toggle/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/series-types/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/shared/jquery-ui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/stacking/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/symbols/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/threshold/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/tracking/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/visitors/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/examples/zooming/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/excanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/flot.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.colorhelpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.categories.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.crosshair.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.errorbars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.fillbetween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.navigate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.selection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.threshold.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.flot.time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/flot/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/extras.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/icons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/larger.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/path.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/spinning.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_spinning.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/holder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/src/augment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/src/holder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/src/ondomready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/src/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/test/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/test/image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/holderjs/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/attr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/classes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/val.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/access.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/swap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/Data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/var/data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/var/data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/effects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/effects/Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/alias.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/exports/amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/exports/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/offset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/queue/delay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/arr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/push.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/slice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/toString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/dist/metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/dist/metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/dist/metisMenu.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/dist/metisMenu.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/src/metisMenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/metisMenu/src/metisMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/History.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/media/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/mocha.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/mocha/mocha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/bower.travis.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/_template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/area-as-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/bar-colors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/bar-no-axes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/days.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/decimal-custom-hover.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/diagonal-xlabels-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/diagonal-xlabels.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/donut-colors.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/donut-formatter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/donut.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/dst.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/goals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/lib/example.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/lib/example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/months-no-smooth.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/negative.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/no-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/non-continuous.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/non-date.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/quarters.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/resize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/stacked_bars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/timestamps.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/updating.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/weeks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/examples/years.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/less/morris.core.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/lib/morris.area.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/lib/morris.bar.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/lib/morris.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/lib/morris.donut.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/lib/morris.grid.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/lib/morris.hover.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/lib/morris.line.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/morris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/morris.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/morris.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/area/area_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/bar/bar_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/bar/colours.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/commas_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/donut/donut_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/grid/auto_grid_lines_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/grid/set_data_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/grid/y_label_format_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/hover_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/label_series_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/line/line_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/pad_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/lib/parse_time_spec.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/specs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/support/placeholder.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/examples.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/exemplary/area0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/exemplary/bar0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/exemplary/line0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/exemplary/stacked_bar0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/run.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/morrisjs/spec/viz/visual_specs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/raphael/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/raphael/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/raphael/dev/amdDev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/raphael/dev/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/raphael/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/raphael/raphael-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/raphael/raphael.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/sb-admin-2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/css/timeline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/flot-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/morris-data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/sb-admin-2.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/bilanz/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buchhaltung/__init__.py" afterPath="$PROJECT_DIR$/buchhaltung/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/templatetags/__init__.py" afterPath="$PROJECT_DIR$/bilanz/templatetags/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/admin.py" afterPath="$PROJECT_DIR$/bilanz/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/models.py" afterPath="$PROJECT_DIR$/bilanz/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/templatetags/totalSum.py" afterPath="$PROJECT_DIR$/bilanz/templatetags/totalSum.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/urls.py" afterPath="$PROJECT_DIR$/bilanz/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buchhaltung/urls.py" afterPath="$PROJECT_DIR$/buchhaltung/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/views.py" afterPath="$PROJECT_DIR$/bilanz/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -773,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bilanz/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1590">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.29605263" vertical-offset="1215" max-vertical-offset="2130">
+              <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -788,60 +45,66 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilanz/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilanz/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="339" max-vertical-offset="795">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bilanz/models.py">
+      <file leaf-file-name="add_konto.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bilanz/add_konto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8684211" vertical-offset="144" max-vertical-offset="660">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="-20.0" vertical-offset="225" max-vertical-offset="1785">
+              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+              <folding>
+                <element signature="e#1178#1199#0#HTML" expanded="true" />
+                <element signature="e#1727#1748#0#HTML" expanded="true" />
+                <element signature="e#2757#2781#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_buchung2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/bilanz/add_buchung2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="33.166668" vertical-offset="1006" max-vertical-offset="1425">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="erfolgsrechnung.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html">
+      <file leaf-file-name="getKonten.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilanz/templatetags/getKonten.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0" vertical-offset="720" max-vertical-offset="1755">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buchungen.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bilanz/buchungen.html">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/_layouts/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.083333" vertical-offset="307" max-vertical-offset="810">
-              <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buchhaltung/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1845">
-              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buchhaltung/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state vertical-scroll-proportion="-15.0" vertical-offset="1275" max-vertical-offset="3795">
+              <caret line="109" column="55" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -850,28 +113,8 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilanz/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-              <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bilanz.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bilanz/bilanz.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375" vertical-offset="690" max-vertical-offset="1215">
-              <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="495">
+              <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -901,34 +144,43 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/user_accounts/templates/user_accounts/login.html" />
         <option value="$PROJECT_DIR$/user_accounts/forms.py" />
-        <option value="$PROJECT_DIR$/user_accounts/urls.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/templates/user_accounts/login.html" />
-        <option value="$PROJECT_DIR$/templates/_layouts/base_login.html" />
-        <option value="$PROJECT_DIR$/user_accounts/views.py" />
-        <option value="$PROJECT_DIR$/templates/bilanz/add_buchung.html" />
         <option value="$PROJECT_DIR$/buchhaltung/urls.py" />
         <option value="$PROJECT_DIR$/common/templatetags/active.py" />
-        <option value="$PROJECT_DIR$/templates/_layouts/base.html" />
-        <option value="$PROJECT_DIR$/bilanz/urls.py" />
         <option value="$PROJECT_DIR$/buchhaltung/__init__.py" />
         <option value="$PROJECT_DIR$/templates/bilanz/index.html" />
         <option value="$PROJECT_DIR$/templates/bilanz/dashboard.html" />
         <option value="$PROJECT_DIR$/bilanz/templatetags/totalSum.py" />
-        <option value="$PROJECT_DIR$/bilanz/forms.py" />
         <option value="$PROJECT_DIR$/templates/bilanz/buchungen.html" />
-        <option value="$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html" />
+        <option value="$PROJECT_DIR$/static/js/neon-login.js" />
+        <option value="$PROJECT_DIR$/user_accounts/views.py" />
+        <option value="$PROJECT_DIR$/user_accounts/urls.py" />
+        <option value="$PROJECT_DIR$/templates/user_accounts/login2.html" />
+        <option value="$PROJECT_DIR$/templates/_layouts/base_login.html" />
+        <option value="$PROJECT_DIR$/static/css/neon-forms.css" />
+        <option value="$PROJECT_DIR$/static/css/neon-core.css" />
         <option value="$PROJECT_DIR$/templates/bilanz/bilanz.html" />
-        <option value="$PROJECT_DIR$/bilanz/admin.py" />
+        <option value="$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html" />
+        <option value="$PROJECT_DIR$/templates/bilanz/add_buchung.html" />
+        <option value="$PROJECT_DIR$/bilanz/urls.py" />
+        <option value="$PROJECT_DIR$/bilanz/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/bilanz/templatetags/getKonten.py" />
         <option value="$PROJECT_DIR$/buchhaltung/settings.py" />
-        <option value="$PROJECT_DIR$/bilanz/views.py" />
+        <option value="$PROJECT_DIR$/bilanz/admin.py" />
+        <option value="$PROJECT_DIR$/static/js/bootstrap-switch.min.js" />
+        <option value="$PROJECT_DIR$/templates/bilanz/add_buchung2.html" />
+        <option value="$PROJECT_DIR$/bilanz/forms.py" />
+        <option value="$PROJECT_DIR$/templates/_layouts/base.html" />
+        <option value="$PROJECT_DIR$/templates/bilanz/add_konto.html" />
         <option value="$PROJECT_DIR$/bilanz/models.py" />
+        <option value="$PROJECT_DIR$/bilanz/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="287" />
-    <option name="y" value="89" />
+    <option name="x" value="341" />
+    <option name="y" value="105" />
     <option name="width" value="1108" />
     <option name="height" value="741" />
   </component>
@@ -958,6 +210,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -986,25 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buchhaltung" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buchhaltung" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bilanz" />
+              <option name="myItemId" value="user_accounts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1065,36 +300,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bilanz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buchhaltung" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="buchhaltung" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bilanz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templatetags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -1103,6 +320,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/templates/bilanz" />
       <recent name="$PROJECT_DIR$/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1195,27 +414,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="buchhaltung" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -1241,7 +440,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="buchhaltung" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -1324,16 +543,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="89" width="1108" height="741" extended-state="0" />
+    <frame x="341" y="105" width="1108" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22119816" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20919324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2129456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1342,9 +560,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718894" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -1370,88 +589,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bilanz/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/templatetags/active.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1455">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1695">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/buchungen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="750">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="765">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/_layouts/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="6735">
-          <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="2430">
-          <caret line="7" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/add_buchung.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/bilanz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1125">
-          <caret line="51" column="52" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
@@ -1558,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_accounts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_accounts/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -1576,39 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="720">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="585">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/_layouts/base_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="840" max-vertical-offset="1500">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user_accounts/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1630,40 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/add_buchung.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/_layouts/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="6735">
-          <caret line="84" column="71" selection-start-line="84" selection-start-column="71" selection-end-line="84" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/templatetags/kontoSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#27#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bilanz/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="16.041666" vertical-offset="1870" max-vertical-offset="2430">
@@ -1680,19 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/templatetags/totalSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1700,38 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="10" column="109" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/buchungen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.083333" vertical-offset="307" max-vertical-offset="810">
-          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="720" max-vertical-offset="1755">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bilanz/bilanz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="690" max-vertical-offset="1215">
-          <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1744,39 +766,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/admin.py">
+    <entry file="file://$PROJECT_DIR$/templates/user_accounts/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/neon-login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="5055">
+          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/_layouts/base_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="690" max-vertical-offset="1545">
+          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/neon-forms.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="95087" max-vertical-offset="105630">
+          <caret line="6355" column="13" selection-start-line="6355" selection-start-column="13" selection-end-line="6355" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/neon-core.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57075" max-vertical-offset="138750">
+          <caret line="3830" column="13" selection-start-line="3830" selection-start-column="13" selection-end-line="3830" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bilanz/buchungen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="810">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bilanz/bilanz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1215">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625" vertical-offset="255" max-vertical-offset="1755">
+          <caret line="26" column="69" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="69" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/templatetags/kontoSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bilanz/add_buchung.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1736111" vertical-offset="0" max-vertical-offset="432">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user_accounts/login2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="135" max-vertical-offset="1410">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/templatetags/totalSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buchhaltung/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1845">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1845">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/templatetags/getKonten.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap-switch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3030">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/bootstrap-switch.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="21" column="13933" selection-start-line="21" selection-start-column="13933" selection-end-line="21" selection-end-column="13933" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/_layouts/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0" vertical-offset="1275" max-vertical-offset="3795">
+          <caret line="109" column="55" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="495">
+          <caret line="18" column="97" selection-start-line="18" selection-start-column="97" selection-end-line="18" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_accounts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="339" max-vertical-offset="795">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bilanz/add_konto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="225" max-vertical-offset="1785">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="e#1178#1199#0#HTML" expanded="true" />
+            <element signature="e#1727#1748#0#HTML" expanded="true" />
+            <element signature="e#2757#2781#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/bilanz/add_buchung2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="33.166668" vertical-offset="1006" max-vertical-offset="1425">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bilanz/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1590">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.29605263" vertical-offset="1215" max-vertical-offset="2130">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8684211" vertical-offset="144" max-vertical-offset="660">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
