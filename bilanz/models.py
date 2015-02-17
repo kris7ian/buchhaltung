@@ -32,7 +32,7 @@ class Konto(models.Model):
     konto_type = models.CharField(max_length=1, choices=konto_types)
     konto_type2 = models.CharField(max_length=1, choices=konto_types2, default='-')
     konto_type3 = models.CharField(max_length=3, choices=konto_types3)
-    def __str__(self):
+    def __unicode__(self):
         return self.konto_title
 
 
