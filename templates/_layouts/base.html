@@ -55,121 +55,122 @@
 
 <div class="page-container horizontal-menu">
 
-	
-	<header class="navbar navbar-fixed-top"><!-- set fixed position by adding class "navbar-fixed-top" -->
-		
-		<div class="navbar-inner">
-		
-			<!-- logo -->
-			<div class="navbar-brand">
-				<a href="{% url 'dashboard' %}">
-					<img src="{% static "images/buchhaltung-logo@2x.png" %}" width="200" alt="Buchhaltung" />
-				</a>
-			</div>
-			
-			
-			<!-- main menu -->
-						
-			<ul class="navbar-nav">
-				<li class="{% active request dashboard_url %}">
-					<a href="{% url 'dashboard' %}">
-						<i class="entypo-gauge"></i>
-						<span class="title">Dashboard</span>
-					</a>
-				</li>
-				<li class="opened {% active request bilanz_url %}">
-					<a href="{% url 'bilanz' %}">
-						<i class="entypo-book"></i>
-						<span class="title">Bilanz</span>
-					</a>
-				</li>
-                <li class="opened {% active request erfolgsrechnung_url %}">
-					<a href="{% url 'erfolgsrechnung' %}">
-						<i class="entypo-chart-line"></i>
-						<span class="title">Erfolgsrechnung</span>
-					</a>
-				</li>
-				<li class="opened {% active request buchungen_url %}">
-					<a href="{% url 'buchungen' %}">
-						<i class="entypo-list"></i>
-						<span class="title">Buchungen</span>
-					</a>
-				</li>
-				<li>
-					<a>
-						<i class="entypo-list-add"></i>
-						<span class="title">Hinzufügen...</span>
-					</a>
-					<ul>
-						<li>
-							<a href="{% url 'add-buchung2' %}">
-								<span class="title">Buchung</span>
-							</a>
-						</li>
-						<li>
-							<a href="{% url 'add-konto2' %}">
-								<span class="title">Konto</span>
-							</a>
-						</li>
-						<!--
-						<li>
-							<a href="ui-tabs-accordions.html">
-								<span class="title">Abschreibung</span>
-							</a>
-						</li>
-						-->
-					</ul>
-				</li>
-			</ul>
-						
-			
-			<!-- notifications and other links -->
-			<ul class="nav navbar-right pull-right">
+	<div style="background:#303641;">
+        <header class="navbar navbar-fixed-top"><!-- set fixed position by adding class "navbar-fixed-top" -->
+
+            <div class="navbar-inner">
+
+                <!-- logo -->
+                <div class="navbar-brand">
+                    <a href="{% url 'dashboard' %}">
+                        <img src="{% static "images/buchhaltung-logo@2x.png" %}" width="200" alt="Buchhaltung" />
+                    </a>
+                </div>
+
+
+                <!-- main menu -->
+
+                <ul class="navbar-nav">
+                    <li class="{% active request dashboard_url %}">
+                        <a href="{% url 'dashboard' %}">
+                            <i class="entypo-gauge"></i>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="opened {% active request bilanz_url %}">
+                        <a href="{% url 'bilanz' %}">
+                            <i class="entypo-book"></i>
+                            <span class="title">Bilanz</span>
+                        </a>
+                    </li>
+                    <li class="opened {% active request erfolgsrechnung_url %}">
+                        <a href="{% url 'erfolgsrechnung' %}">
+                            <i class="entypo-chart-line"></i>
+                            <span class="title">Erfolgsrechnung</span>
+                        </a>
+                    </li>
+                    <li class="opened {% active request buchungen_url %}">
+                        <a href="{% url 'buchungen' %}">
+                            <i class="entypo-list"></i>
+                            <span class="title">Buchungen</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="entypo-list-add"></i>
+                            <span class="title">Hinzufügen...</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="{% url 'add-buchung2' %}">
+                                    <span class="title">Buchung</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{% url 'add-konto2' %}">
+                                    <span class="title">Konto</span>
+                                </a>
+                            </li>
+                            <!--
+                            <li>
+                                <a href="ui-tabs-accordions.html">
+                                    <span class="title">Abschreibung</span>
+                                </a>
+                            </li>
+                            -->
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <!-- notifications and other links -->
+                <ul class="nav navbar-right pull-right">
 
 
 
 
 
 
-                {% if user.is_anonymous %}
-				<!-- raw links -->
-				<li class="dropdown">
-					<li>
-						<a href="{% url 'login' %}">Login</a>
-					</li>
-				</li>
-                {% endif %}
+                    {% if user.is_anonymous %}
+                    <!-- raw links -->
+                    <li class="dropdown">
+                        <li>
+                            <a href="{% url 'login' %}">Login</a>
+                        </li>
+                    </li>
+                    {% endif %}
 
-				{% if user.is_authenticated %}
+                    {% if user.is_authenticated %}
 
-                <li class="sep"></li>
+                    <li class="sep"></li>
 
-				<li>
-					<a href="{% url 'logout' %}">
-						Log Out <i class="entypo-logout right"></i>
-					</a>
-				</li>
+                    <li>
+                        <a href="{% url 'logout' %}">
+                            Log Out <i class="entypo-logout right"></i>
+                        </a>
+                    </li>
 
-                {% endif %}
+                    {% endif %}
 
 
-				<!-- mobile only -->
-				<li class="visible-xs">
+                    <!-- mobile only -->
+                    <li class="visible-xs">
 
-					<!-- open/close menu icon (do not remove if you want to enable menu on mobile devices) -->
-					<div class="horizontal-mobile-menu visible-xs">
-						<a href="#" class="with-animation"><!-- add class "with-animation" to support animation -->
-							<i class="entypo-menu"></i>
-						</a>
-					</div>
+                        <!-- open/close menu icon (do not remove if you want to enable menu on mobile devices) -->
+                        <div class="horizontal-mobile-menu visible-xs">
+                            <a href="#" class="with-animation"><!-- add class "with-animation" to support animation -->
+                                <i class="entypo-menu"></i>
+                            </a>
+                        </div>
 
-				</li>
+                    </li>
 
-			</ul>
-	
-		</div>
-		
-	</header>
+                </ul>
+
+            </div>
+
+        </header>
+    </div>
 	<div class="main-content">
 
 		<div class="container">

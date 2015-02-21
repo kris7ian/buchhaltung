@@ -4495,6 +4495,7 @@ float: left;
 }
 /* Relatively-Small screen */
 @media (max-width: 767px) {
+  .navbar-brand {text-align: center;}
   .page-body .page-container {
     padding-left: 0;
   }

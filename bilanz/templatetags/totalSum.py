@@ -4,13 +4,22 @@ from bilanz.templatetags.kontoSum import kontoSum
 
 register = template.Library()
 
-def totalSum(kontotype):
-    konten = Konto.objects.filter(konto_type=kontotype).filter(konto_type2='-')
-    sum = 0
+def totalSum(kontotype, kontoerfolgswirksam):
+    if kontoerfolgswirksam == False:
+        konten = Konto.objects.filter(konto_type=kontotype).filter(konto_erfolgswirksam=False)
+        sum = 0
 
-    for konto in konten:
-        sum += kontoSum(konto.id, konto.konto_type)
+        for konto in konten:
+            sum += kontoSum(konto.id, konto.konto_type)
 
-    return sum
+        return sum
+    else:
+        konten = Konto.objects.filter(konto_type=kontotype).filter(konto_erfolgswirksam=True)
+        sum = 0
+
+        for konto in konten:
+            sum += kontoSum(konto.id, konto.konto_type)
+
+        return sum
 
 register.simple_tag(totalSum)

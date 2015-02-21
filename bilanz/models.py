@@ -34,6 +34,8 @@ class Konto(models.Model):
     konto_type3 = models.CharField(max_length=3, choices=konto_types3)
     def __unicode__(self):
         return self.konto_title
+    def __str__(self):
+        return self.konto_title
 
 
 class Buchung(models.Model):
