@@ -15,6 +15,7 @@
                                             <th>Beschreibung</th>
                                             <th>Buchungssatz</th>
                                             <th>Betrag</th>
+                                            <th>Aktionen</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -32,6 +33,7 @@
                                                 <td>
                                                     {{ buchung.buchung_amount }}
                                                 </td>
+                                                <td><a href="{% url 'edit-buchung' buchung.id %}"><i class="entypo-pencil"></i></a><a href="{% url 'copy-buchung' buchung.id %}"><i class="entypo-plus-squared"></i></a><a href="#"><i class="entypo-trash"></i></a></td>
                                             </tr>
                                         {% endfor %}
                                     </tbody>

@@ -16,7 +16,7 @@ class AddBuchungForm(forms.ModelForm):
 
 class AddKontoForm(forms.ModelForm):
     class Meta:
-        fields = ('konto_title','konto_erfolgswirksam', 'konto_type', 'konto_type2', 'konto_type3',)
+        fields = ('konto_title','konto_erfolgswirksam', 'konto_type', 'konto_type2', 'konto_type3', 'konto_currency',)
         model = models.Konto
 
     def __init__(self, *args, **kwargs):
@@ -27,6 +27,7 @@ class AddKontoForm(forms.ModelForm):
             'konto_erfolgswirksam',
             'konto_type',
             'konto_type2',
+            'konto_currency',
             ButtonHolder(
                 Submit('neues-konto', 'Create', css_class='btn-primary')
             )

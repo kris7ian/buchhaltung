@@ -26,10 +26,14 @@
                                             {% if konto.konto_type = 'A' %}
                                                 <tr>
                                                     <td>
-                                                        {{ konto.konto_title }}
+                                                         <a href="{% url 'detail-konto' konto.id %}" style="display:block;width:100%;height:100%;color:#949494;">
+                                                             {{ konto.konto_title }}
+                                                         </a>
                                                     </td>
                                                     <td style="text-align:right;">
-                                                        {% kontoSum konto.id konto.konto_type %}
+                                                        <a href="{% url 'detail-konto' konto.id %}" style="display:block;width:100%;height:100%;color:#949494;">
+                                                            {% kontoSum konto.id konto.konto_type %}
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             {% endif %}
@@ -43,10 +47,14 @@
                                             {% if konto.konto_type = 'P' %}
                                                 <tr>
                                                     <td>
-                                                        {{ konto.konto_title }}
+                                                        <a href="{% url 'detail-konto' konto.id %}" style="display:block;width:100%;height:100%;color:#949494;">
+                                                            {{ konto.konto_title }}
+                                                        </a>
                                                     </td>
                                                     <td style="text-align:right;">
-                                                        {% kontoSum konto.id konto.konto_type %}
+                                                        <a href="{% url 'detail-konto' konto.id %}" style="display:block;width:100%;height:100%;color:#949494;">
+                                                            {% kontoSum konto.id konto.konto_type %}
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             {% endif %}

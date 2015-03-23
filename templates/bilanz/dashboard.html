@@ -9,182 +9,24 @@
         <h1 class="page-header">Buchhaltung</h1>
         <h2>Willkomen {% if user.is_authenticated %} {{ user.username }} {% endif %} </h2>
 
-                {% if bilanz_liste_aktiv %}
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Bilanz
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Aktiven</th>
-                                            <th style="text-align:right;">Passiven</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td width="50%" style="padding:0;border-right:1px solid;">
-                                                <table class="table table-hover" id="bilanz">
-                                                    {% for konto in bilanz_liste_aktiv %}
-                                                        <tr>
-                                                            <td>
-                                                                {{ konto.konto_title }}
-                                                            </td>
-                                                            <td style="text-align:right;">
-                                                                {% kontoSum konto.id konto.konto_type %}
-                                                            </td>
-                                                        </tr>
-                                                    {% endfor %}
-                                                </table>
-                                            </td>
-                                            <td width="50%" style="padding:0">
+        {{ list }}
 
-                                                <table class="table table-hover">
-                                                    {% for konto in bilanz_liste_passiv %}
-                                                        <tr>
-                                                            <td>
-                                                                {{ konto.konto_title }}
-                                                            </td>
-                                                            <td style="text-align:right;">
-                                                                {% kontoSum konto.id konto.konto_type %}
-                                                            </td>
-                                                        </tr>
-                                                    {% endfor %}
-                                                </table>
+        {% for entry in list %}
 
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Summe: <span style="float:right;">{% totalSum 'A' False %}</span></td>
-                                            <td>Summe: <span style="float:right;">{% totalSum 'P' True %}</span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.table-responsive -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-6 -->
-                {% endif %}
+            {{ entry.buchung_date }} - {{ entry.total_amount }}
+            <br />
 
-                {% if erfolg_liste_aufwand %}
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Erfolgsrechnung
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Aufwand</th>
-                                            <th>Ertrag</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td width="50%" style="padding:0;border-right:1px solid;">
-                                                <table class="table table-hover" id="bilanz">
-                                                    {% for konto in erfolg_liste_aufwand %}
-                                                        <tr>
-                                                            <td>
-                                                                {{ konto.konto_title }}
-                                                            </td>
-                                                            <td style="text-align:right;">
-                                                                {% kontoSum konto.id konto.konto_type %}
-                                                            </td>
-                                                        </tr>
-                                                    {% endfor %}
-                                                </table>
-                                            </td>
-                                            <td width="50%" style="padding:0">
-
-                                                <table class="table table-hover">
-                                                    {% for konto in erfolg_liste_ertrag %}
-                                                        <tr>
-                                                            <td>
-                                                                {{ konto.konto_title }}
-                                                            </td>
-                                                            <td style="text-align:right;">
-                                                                {% kontoSum konto.id konto.konto_type %}
-                                                            </td>
-                                                        </tr>
-                                                    {% endfor %}
-                                                </table>
-
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Summe: <span style="float:right;">{% totalSum 'A' False %}</span></td>
-                                            <td>Summe: <span style="float:right;">{% totalSum 'P' False %}</span></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.table-responsive -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-6 -->
-                {% endif %}
+        {% endfor %}
 
 
-                {% if buchungen %}
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Buchungen
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Datum</th>
-                                            <th>Beschreibung</th>
-                                            <th>Buchungssatz</th>
-                                            <th>Betrag</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {% for buchung in buchungen %}
-                                            <tr>
-                                                <td>
-                                                    {{ buchung.buchung_date|date:"j.m.o" }}
-                                                </td>
-                                                <td>
-                                                    {{ buchung.buchung_descr }}
-                                                </td>
-                                                <td>
-                                                    {{ buchung.buchung_sollKonto }} / {{ buchung.buchung_habenKonto }}
-                                                </td>
-                                                <td>
-                                                    {{ buchung.buchung_amount }}
-                                                </td>
-                                            </tr>
-                                        {% endfor %}
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.table-responsive -->
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-6 -->
-                {% endif %}
+            {% for menu_dict in list %}
+                            {% for key,value in menu_dict.items %}
+                                    {{ value }} <br />
+                            {% endfor %}
+            {% endfor %}
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
 
         {% endblock content %}

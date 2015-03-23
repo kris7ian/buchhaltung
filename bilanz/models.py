@@ -29,9 +29,15 @@ class Konto(models.Model):
         ('lFK', 'langfristiges Fremdkapital'),
         ('EK', 'Eigenkapital'),
     )
+    konto_currencies = (
+        ('CHF', 'CHF'),
+        ('EUR', 'EUR'),
+        ('USD', 'USD'),
+    )
     konto_type = models.CharField(max_length=1, choices=konto_types)
     konto_type2 = models.CharField(max_length=1, choices=konto_types2, default='-')
     konto_type3 = models.CharField(max_length=3, choices=konto_types3)
+    konto_currency = models.CharField(max_length=3, choices=konto_currencies, default="CHF")
     def __unicode__(self):
         return self.konto_title
     def __str__(self):

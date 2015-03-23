@@ -5,7 +5,7 @@
 
 
 
-<h1 class="page-header">Neues Konto</h1>
+<h1 class="page-header">Konto &auml;ndern: {{ konto_details.konto_title }}</h1>
 <br />
 
 <form role="form" method="post" action="" class="form-horizontal form-groups-bordered">
@@ -16,7 +16,7 @@
         <label for="field-1" class="col-sm-3 control-label">Konto Titel</label>
 
         <div class="col-sm-5">
-            <input type="text" class="form-control" id="field-1" placeholder="Name" name="konto_title">
+            <input type="text" class="form-control" id="field-1" value="{{ konto_details.konto_title }}" name="konto_title">
         </div>
     </div>
 
@@ -101,13 +101,14 @@
 
     <div class="form-group" style="border-bottom:0;">
         <div class="col-sm-5 col-sm-offset-3">
-            <input type="submit" name="neues-konto" value="Hinzuf&uuml;gen" class="btn btn-primary btn-primary" id="submit-id-neues-konto">
+            <input type="submit" name="neues-konto" value="&Auml;nderungen speichern" class="btn btn-primary btn-primary" id="submit-id-neues-konto">
         </div>
     </div>
 
+
     <script>
     $(document).ready(function(){
-        $("[name='konto_erfolgswirksam']").bootstrapSwitch();
+        $("input[name='konto_erfolgswirksam']").bootstrapSwitch();
 
         $('input[name="konto_erfolgswirksam"]').on('switchChange.bootstrapSwitch', function(event, state) {
 
@@ -130,6 +131,23 @@
           }
         });
     });
+    </script>
+
+    <script>
+        $(function() {
+            var $radios = $('input:radio[name=konto_currency]');
+            if($radios.is(':checked') === true) {
+                $radios.filter('[value={{ konto_details.konto_currency }}]').prop('checked', true);
+            }
+            {% if konto_details.konto_erfolgswirksam %}
+                $("input[name='konto_erfolgswirksam']").bootstrapSwitch('toggleState');
+                $(".aufwand-ertrag select").val("{{ konto_details.konto_type }}");
+                $(".kategorie-erfolgswirksam select").val("{{ konto_details.konto_type2 }}");
+            {% else %}
+                $(".aktiv-passiv select").val("{{ konto_details.konto_type }}");
+                $(".kategorie-nichterfolgswirksam select").val("{{ konto_details.konto_type3 }}");
+            {% endif %}
+        });
     </script>
 
 {% endblock %}

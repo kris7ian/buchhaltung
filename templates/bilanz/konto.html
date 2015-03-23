@@ -1,0 +1,140 @@
+{% extends '_layouts/base.html' %}
+
+
+    {% load kontoSum %}
+    {% load totalSum %}
+
+    {% block content %}
+
+        <h1 class="page-header">{{ konto.konto_title }} <a href="{% url 'edit-konto' id %}"><i class="entypo-pencil"></i></a><a href="#"><i class="entypo-trash"></i></a></h1>
+
+
+        {% if buchungen_sollList or buchungen_habenList %}
+            {% if konto.konto_type = 'A' %}
+
+                <div class="col-md-12">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Soll (+)</th>
+                                            <th style="text-align:right;">Haben (-)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%" style="padding:0;border-right:1px solid;">
+                                                <table class="table table-hover" id="bilanz" style="margin:0;">
+                                                    {% for buchung in buchungen_sollList %}
+
+                                                        <tr>
+                                                            <td>
+                                                                {{ buchung.buchung_date|date:"j. M" }}
+                                                            </td>
+                                                            <td>
+
+                                                                {{ buchung.buchung_descr }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {{ buchung.buchung_amount }}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+                                            </td>
+                                            <td width="50%" style="padding:0">
+                                                <table class="table table-hover" id="bilanz" style="margin:0;">
+                                                    {% for buchung in buchungen_habenList %}
+
+                                                        <tr>
+                                                            <td>
+
+                                                                {{ buchung.buchung_descr }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {{ buchung.buchung_amount }}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-weight:bold;">Summe: <span style="float:right;"></span></td>
+                                            <td style="font-weight:bold;">Summe: <span style="float:right;"></span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                </div>
+                <!-- /.col-lg-6 -->
+
+            {% else %}
+
+                <div class="col-md-12">
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Soll (-)</th>
+                                            <th style="text-align:right;">Haben (+)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td width="50%" style="padding:0;border-right:1px solid;">
+                                                <table class="table table-hover" id="bilanz" style="margin:0;">
+                                                    {% for buchung in buchungen_habenList %}
+
+                                                        <tr>
+                                                            <td>
+
+                                                                {{ buchung.buchung_descr }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {{ buchung.buchung_amount }}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+                                            </td>
+                                            <td width="50%" style="padding:0">
+                                                <table class="table table-hover" id="bilanz" style="margin:0;">
+                                                    {% for buchung in buchungen_sollList %}
+
+                                                        <tr>
+                                                            <td>
+
+                                                                {{ buchung.buchung_descr }}
+                                                            </td>
+                                                            <td style="text-align:right;">
+                                                                {{ buchung.buchung_amount }}
+                                                            </td>
+                                                        </tr>
+                                                    {% endfor %}
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="font-weight:bold;">Summe: <span style="float:right;"></span></td>
+                                            <td style="font-weight:bold;">Summe: <span style="float:right;"></span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                </div>
+                <!-- /.col-lg-6 -->
+
+
+            {% endif %}
+
+        {% else %}
+
+            <h3>Keine Buchungen verf&uuml;gbar.</h3>
+
+        {% endif %}
+
+
+    {% endblock content %}
