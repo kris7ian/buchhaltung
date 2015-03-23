@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8194fe8-5579-45a8-88bd-cd0bcfa0d916" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bilanz/add_buchung2.html" afterPath="$PROJECT_DIR$/templates/bilanz/add_buchung2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bilanz/add_konto.html" afterPath="$PROJECT_DIR$/templates/bilanz/add_konto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/_layouts/base.html" afterPath="$PROJECT_DIR$/templates/_layouts/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bilanz/bilanz.html" afterPath="$PROJECT_DIR$/templates/bilanz/bilanz.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bilanz/buchungen.html" afterPath="$PROJECT_DIR$/templates/bilanz/buchungen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bilanz/dashboard.html" afterPath="$PROJECT_DIR$/templates/bilanz/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html" afterPath="$PROJECT_DIR$/templates/bilanz/erfolgsrechnung.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/forms.py" afterPath="$PROJECT_DIR$/bilanz/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/models.py" afterPath="$PROJECT_DIR$/bilanz/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/urls.py" afterPath="$PROJECT_DIR$/bilanz/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/views.py" afterPath="$PROJECT_DIR$/bilanz/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buchhaltung.iws" />
@@ -36,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bilanz/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27713627" vertical-offset="0" max-vertical-offset="433">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
               <folding />
             </state>
@@ -68,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bilanz/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="915">
+            <state vertical-scroll-proportion="0.31177828" vertical-offset="450" max-vertical-offset="915">
               <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -209,8 +198,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="131" />
-    <option name="y" value="128" />
+    <option name="x" value="457" />
+    <option name="y" value="85" />
     <option name="width" value="1122" />
     <option name="height" value="718" />
   </component>
@@ -613,8 +602,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="131" y="128" width="1122" height="718" extended-state="0" />
-    <editor active="false" />
+    <frame x="457" y="85" width="1122" height="718" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22929937" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1031,16 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilanz/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="915">
-          <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bilanz/add_buchung2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="780" max-vertical-offset="1425">
@@ -1091,9 +1070,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bilanz/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27713627" vertical-offset="0" max-vertical-offset="433">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilanz/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31177828" vertical-offset="450" max-vertical-offset="915">
+          <caret line="39" column="90" selection-start-line="39" selection-start-column="90" selection-end-line="39" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
