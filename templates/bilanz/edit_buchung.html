@@ -88,4 +88,13 @@
         </div>
     </div>
 
+    <script>
+        $(function() {
+
+            $("select[name='buchung_sollKonto']").val("{{ buchung_details.buchung_sollKonto.id }}");
+            $("select[name='buchung_habenKonto']").val("{{ buchung_details.buchung_habenKonto.id }}");
+
+        });
+    </script>
+
 {% endblock %}

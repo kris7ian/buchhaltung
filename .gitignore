@@ -6,6 +6,12 @@ db.sqlite3
 
 .DS_Store
 
+bilanz/migrations/
+
+common/migrations/
+
+user_accounts/migrations/
+
 **/.idea/workspace.xml
 
 **/.idea/tasks.xml

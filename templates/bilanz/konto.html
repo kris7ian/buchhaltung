@@ -28,7 +28,7 @@
                                                     {% for buchung in buchungen_sollList %}
 
                                                         <tr>
-                                                            <td>
+                                                            <td style="font-size: 11px;" valign="middle" width="15%">
                                                                 {{ buchung.buchung_date|date:"j. M" }}
                                                             </td>
                                                             <td>
@@ -47,6 +47,9 @@
                                                     {% for buchung in buchungen_habenList %}
 
                                                         <tr>
+                                                            <td style="font-size: 11px;" valign="middle" width="15%">
+                                                                {{ buchung.buchung_date|date:"j. M" }}
+                                                            </td>
                                                             <td>
 
                                                                 {{ buchung.buchung_descr }}
@@ -88,6 +91,9 @@
                                                     {% for buchung in buchungen_habenList %}
 
                                                         <tr>
+                                                            <td style="font-size: 11px;" valign="middle" width="15%">
+                                                                {{ buchung.buchung_date|date:"j. M" }}
+                                                            </td>
                                                             <td>
 
                                                                 {{ buchung.buchung_descr }}
@@ -104,8 +110,10 @@
                                                     {% for buchung in buchungen_sollList %}
 
                                                         <tr>
+                                                            <td style="font-size: 11px;" valign="middle" width="15%">
+                                                                {{ buchung.buchung_date|date:"j. M" }}
+                                                            </td>
                                                             <td>
-
                                                                 {{ buchung.buchung_descr }}
                                                             </td>
                                                             <td style="text-align:right;">
