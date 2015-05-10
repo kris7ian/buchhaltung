@@ -1,6 +1,7 @@
 from django import template
 from bilanz.models import Konto
 from bilanz.templatetags.kontoSum import kontoSum
+from bilanz.templatetags.kontoSumForeignCurrency import kontoSumForeignCurrency
 
 register = template.Library()
 
@@ -10,7 +11,10 @@ def totalSum(kontotype, kontoerfolgswirksam):
         sum = 0
 
         for konto in konten:
-            sum += kontoSum(konto.id, konto.konto_type)
+            if konto.konto_currency != 'CHF':
+                sum += kontoSumForeignCurrency(konto.id, konto.konto_type, konto.konto_currency)
+            else:
+                sum += kontoSum(konto.id, konto.konto_type)
 
         return sum
     else:
