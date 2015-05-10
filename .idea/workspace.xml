@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8194fe8-5579-45a8-88bd-cd0bcfa0d916" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bilanz/bilanz.html" afterPath="$PROJECT_DIR$/templates/bilanz/bilanz.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bilanz/templatetags/kontoSum.py" afterPath="$PROJECT_DIR$/bilanz/templatetags/kontoSum.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -129,8 +128,8 @@
       <file leaf-file-name="kontoSum.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bilanz/templatetags/kontoSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7525773" vertical-offset="370" max-vertical-offset="915">
-              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.87628865" vertical-offset="205" max-vertical-offset="780">
+              <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -1007,8 +1006,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bilanz/templatetags/kontoSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7525773" vertical-offset="370" max-vertical-offset="915">
-          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.87628865" vertical-offset="205" max-vertical-offset="780">
+          <caret line="42" column="62" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
