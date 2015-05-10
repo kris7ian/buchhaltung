@@ -2,7 +2,9 @@
 
 
     {% load kontoSum %}
+    {% load kontoSumForeignCurrency %}
     {% load totalSum %}
+    {% load gewinnVerlust %}
 
     {% block content %}
 
@@ -32,12 +34,30 @@
                                                     </td>
                                                     <td style="text-align:right;">
                                                         <a href="{% url 'detail-konto' konto.id %}" style="display:block;width:100%;height:100%;color:#949494;">
-                                                            {% kontoSum konto.id konto.konto_type %}
+                                                            {% if konto.konto_currency = 'CHF' %}
+                                                                {% kontoSum konto.id konto.konto_type %}
+                                                            {% else %}
+                                                                <span class="tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="= {% kontoSum konto.id konto.konto_type %} {{ konto.konto_currency }}" style="font-style:italic;">{% kontoSumForeignCurrency konto.id konto.konto_type konto.konto_currency %}</span>
+                                                            {% endif %}
                                                         </a>
                                                     </td>
                                                 </tr>
                                             {% endif %}
                                             {% endfor %}
+                                            {% if gewinn < 0 %}
+                                                <tr>
+                                                    <td>
+                                                         <a style="display:block;width:100%;height:100%;color:#949494;">
+                                                             Verlust
+                                                         </a>
+                                                    </td>
+                                                    <td style="text-align:right;">
+                                                        <a style="display:block;width:100%;height:100%;color:#949494;">
+                                                                {{ gewinn }}
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
                                         </table>
                                     </td>
                                     <td width="50%" style="padding:0">
@@ -59,13 +79,32 @@
                                                 </tr>
                                             {% endif %}
                                             {% endfor %}
+                                        {% if gewinn > 0 %}
+                                                <tr style="background: #CDFFD1;">
+                                                    <td>
+                                                         <a style="display:block;width:100%;height:100%;color:#949494;">
+                                                             Gewinn
+                                                         </a>
+                                                    </td>
+                                                    <td style="text-align:right;">
+                                                        <a style="display:block;width:100%;height:100%;color:#949494;">
+                                                                {{ gewinn }}
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
                                         </table>
 
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="font-weight:bold;">Summe: <span style="float:right;">{% totalSum 'A' False %}</span></td>
-                                    <td style="font-weight:bold;">Summe: <span style="float:right;">{% totalSum 'P' False %}</span></td>
+                                    {% if gewinn > 0 %}
+                                        <td style="font-weight:bold;">Summe: <span style="float:right;">{% totalSum 'A' False %}</span></td>
+                                        <td style="font-weight:bold;">Summe: <span style="float:right;">{% totalSum 'A' False %}</span></td>
+                                    {% else %}
+                                        <td style="font-weight:bold;">Summe: <span style="float:right;">{% totalSum 'P' False %}</span></td>
+                                        <td style="font-weight:bold;">Summe: <span style="float:right;">{% totalSum 'P' False %}</span></td>
+                                    {% endif %}
                                 </tr>
                             </tbody>
                         </table>

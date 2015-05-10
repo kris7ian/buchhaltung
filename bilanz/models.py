@@ -52,5 +52,6 @@ class Buchung(models.Model):
     buchung_date = models.DateField('Buchungsdatum')
     buchung_tags = TaggableManager(blank=True)
     buchung_user = models.ForeignKey(User)
+    buchung_rate = models.FloatField(default=1)
     def __unicode__(self):
         return self.buchung_descr

@@ -12,6 +12,8 @@ from bilanz.models import Buchung
 
 from bilanz import forms
 
+from bilanz.templatetags.gewinnVerlust import gewinnVerlust
+
 
 def index(request):
     bilanz_liste_aktiv = Konto.objects.filter(konto_type="A", konto_erfolgswirksam=False)
@@ -64,6 +66,11 @@ class BilanzView(LoginRequiredMixin, generic.ListView):
             return Konto.objects.filter(konto_erfolgswirksam=False)
         else:
             return False
+
+    def get_context_data(self, **kwargs):
+        context = super(BilanzView, self).get_context_data(**kwargs)
+        context['gewinn'] = gewinnVerlust()
+        return context
 
 
 class DashboardView(LoginRequiredMixin, generic.TemplateView):
@@ -208,7 +215,15 @@ class CopyBuchungView(LoginRequiredMixin, generic.CreateView):
     def get_context_data(self, **kwargs):
         context = super(CopyBuchungView, self).get_context_data(**kwargs)
         context['buchung_details'] = self.get_object()
+        context['copy_view'] = True
         return context
+
+    def get_success_url(self):
+        return reverse('buchungen')
+
+
+class DeleteBuchungView(LoginRequiredMixin, generic.DeleteView):
+    model = Buchung
 
     def get_success_url(self):
         return reverse('buchungen')

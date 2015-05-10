@@ -1,11 +1,15 @@
 from django import template
 from django.db.models import Sum
 from bilanz.models import Buchung
+from yahoo_finance import Currency
 
 register = template.Library()
 
-def kontoSum(konto_id, konto_type):
+def kontoSumForeignCurrency(konto_id, konto_type, konto_currency):
     '''Description...'''
+
+    currencyCode = 'CHF' + konto_currency
+    currencyRate = Currency(currencyCode)
 
     if konto_type == 'A':
         plus = Buchung.objects.filter(buchung_sollKonto=konto_id)
@@ -22,8 +26,11 @@ def kontoSum(konto_id, konto_type):
         if minus['buchung_amount__sum'] == None:
             minus['buchung_amount__sum'] = 0
 
-        return int((plus_amount - minus['buchung_amount__sum']) * 100) / 100
+        amount = float(plus_amount - minus['buchung_amount__sum'])
 
+        convertedAmount = amount * 1/float(currencyRate.get_bid())
+
+        return int(convertedAmount * 100) / 100
 
     else:
         plus = Buchung.objects.filter(buchung_habenKonto=konto_id).aggregate(Sum('buchung_amount'))
@@ -40,7 +47,10 @@ def kontoSum(konto_id, konto_type):
         if plus['buchung_amount__sum'] == None:
             plus['buchung_amount__sum'] = 0
 
-        return int((plus['buchung_amount__sum'] - minus_amount) * 100) / 100
+        amount = float(plus['buchung_amount__sum'] - minus_amount)
+        convertedAmount = amount * 1/float(currencyRate.get_bid())
+
+        return int(convertedAmount * 100) / 100
 
 
-register.simple_tag(kontoSum)
+register.simple_tag(kontoSumForeignCurrency)

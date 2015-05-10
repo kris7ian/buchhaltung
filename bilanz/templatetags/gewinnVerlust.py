@@ -1,24 +1,11 @@
 from django import template
-from bilanz.templatetags.kontoSum import totalSum
+from bilanz.templatetags.totalSum import totalSum
 
 register = template.Library()
 
-def gewinnVerlust(aktiv):
+def gewinnVerlust():
 
-    if aktiv == True:
-
-        difference = totalSum('A', True) - totalSum('P', True)
-        if difference > 0:
-            return
-        else:
-            return difference
-
-    else:
-
-        difference = totalSum('A', True) - totalSum('P', True)
-        if difference < 0:
-            return
-        else:
-            return difference
+        gewinn = totalSum('A', False) - totalSum('P', False)
+        return int(gewinn * 100) / 100
 
 register.simple_tag(gewinnVerlust)

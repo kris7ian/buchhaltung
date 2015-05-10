@@ -13,6 +13,7 @@ urlpatterns = patterns('',
     url(r'^hinzufuegen/konto/', views.AddKontoView2.as_view(), name='add-konto2'),
     url(r'^aendern/konto/(?P<pk>\d+)', views.EditKontoView.as_view(), name='edit-konto'),
     url(r'^aendern/buchung/(?P<pk>\d+)', views.EditBuchungView.as_view(), name='edit-buchung'),
+    url(r'^loeschen/buchung/(?P<pk>\d+)', views.DeleteBuchungView.as_view(), name='delete-buchung'),
     url(r'^konto/(?P<pk>\d+)', views.DetailKontoView.as_view(), name='detail-konto'),
     url(r'^neues-konto/', views.AddKontoView.as_view(), name='add-konto'),
 )

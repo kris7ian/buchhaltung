@@ -8,7 +8,7 @@ from bilanz import models
 
 class AddBuchungForm(forms.ModelForm):
     class Meta:
-        fields = ('buchung_descr','buchung_amount', 'buchung_sollKonto', 'buchung_habenKonto', 'buchung_date', 'buchung_tags',)
+        fields = ('buchung_descr','buchung_amount', 'buchung_rate', 'buchung_sollKonto', 'buchung_habenKonto', 'buchung_date', 'buchung_tags',)
         model = models.Buchung
 
 

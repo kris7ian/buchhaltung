@@ -1,5 +1,7 @@
 {% extends '_layouts/base.html' %}
 
+{% load multiply %}
+
     {% block content %}
 
         <h1 class="page-header">Buchungen</h1>
@@ -31,9 +33,12 @@
                                                     {{ buchung.buchung_sollKonto }} / {{ buchung.buchung_habenKonto }}
                                                 </td>
                                                 <td>
-                                                    {{ buchung.buchung_amount }}
+                                                    <span {% if buchung.buchung_rate != 1 %}class="tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="={% multiply buchung.buchung_amount buchung.buchung_rate %} {{ buchung.buchung_sollKonto.konto_currency }} ({{ buchung.buchung_rate }})"{% endif %}>{{ buchung.buchung_amount }}
+
+                                                    {{ buchung.buchung_habenKonto.konto_currency }}</span>
+
                                                 </td>
-                                                <td><a href="{% url 'edit-buchung' buchung.id %}"><i class="entypo-pencil"></i></a><a href="{% url 'copy-buchung' buchung.id %}"><i class="entypo-plus-squared"></i></a><a href="#"><i class="entypo-trash"></i></a></td>
+                                                <td><a href="{% url 'edit-buchung' buchung.id %}"><i class="entypo-pencil tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="Bearbeiten"></i></a><a href="{% url 'copy-buchung' buchung.id %}"><i class="entypo-plus-squared tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="Kopieren"></i></a><a href="{% url 'delete-buchung' buchung.id %}"><i class="entypo-trash tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="Löschen"></i></a></td>
                                             </tr>
                                         {% endfor %}
                                     </tbody>
