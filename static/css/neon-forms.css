@@ -459,6 +459,7 @@
   color: white;
   font-size: 10px;
 }
+
 .bootstrap-tagsinput .tag [data-role="remove"] {
   margin-left: 8px;
   cursor: pointer;

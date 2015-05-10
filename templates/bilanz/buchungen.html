@@ -17,6 +17,7 @@
                                             <th>Beschreibung</th>
                                             <th>Buchungssatz</th>
                                             <th>Betrag</th>
+                                            <th>Tags</th>
                                             <th>Aktionen</th>
                                         </tr>
                                     </thead>
@@ -38,6 +39,13 @@
                                                     {{ buchung.buchung_habenKonto.konto_currency }}</span>
 
                                                 </td>
+
+                                                <td width="150">
+                                                    {% for tag in buchung.buchung_tags.all %}
+                                                        <span class="tag label label-info"> {{ tag.name }} </span>
+                                                    {% endfor %}
+                                                </td>
+
                                                 <td><a href="{% url 'edit-buchung' buchung.id %}"><i class="entypo-pencil tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="Bearbeiten"></i></a><a href="{% url 'copy-buchung' buchung.id %}"><i class="entypo-plus-squared tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="Kopieren"></i></a><a href="{% url 'delete-buchung' buchung.id %}"><i class="entypo-trash tooltip-primary" data-toggle="tooltip" data-placement="top" data-original-title="Löschen"></i></a></td>
                                             </tr>
                                         {% endfor %}
